@@ -20,19 +20,19 @@ function App() {
   return (
     <>
       {/* <Navbar title="textutils2" abouttext="about textutils" /> */}
-      <Navbar title="textutils2" mode={mode} togglemode={togglemode} />
+      {/* <Navbar title="textutils2" mode={mode} togglemode={togglemode} /> */}
       {/* <Navbar /> */}
 
-      {<div className="container">
+      {/* {<div className="container">
         <TextForm
           heading="Enter the text here:"
           labelbody="enter text here only"
           mode={mode}
         />
-      </div>}
+      </div>} */}
       {/* <Usest /> */}
 
-      {/* <About></About> */}
+      <About></About>
     </>
   );
 }
