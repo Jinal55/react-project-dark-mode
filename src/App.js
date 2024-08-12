@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       {/* <Navbar title="textutils2" abouttext="about textutils" /> */}
-      {/* <Navbar title="textutils2" mode={mode} togglemode={togglemode} /> */}
+      <Navbar title="textutils2" mode={mode} togglemode={togglemode} />
       {/* <Navbar /> */}
 
       {/* {<div className="container">
